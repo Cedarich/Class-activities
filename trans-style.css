@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(110, 148, 242, 0.877),rgba(30, 12, 185, 0.877)), url(images/Banners/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.navigator{
+    border: solid #014fcb 1px;
+    display: flex;
+    height: 70px;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+
+
+}
+
+.navigator ul li a:hover {
+    color: #014fcb;
+}
+
+
+nav ul{
+    display: flex;
+    margin: 8px;
+    margin-left: 450px;
+    margin-top: 20px;
+    
+
+    
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    list-style: none;
+    margin: 13px;
+    color: rgb(16, 16, 16);
+    
+}
+nav ul li{
+    list-style: none;
+}
+
+.login button{
+
+    width: 100px;
+    height: 35px;
+    margin: 3px;
+    background-color: #014fcb;
+    border: #014fcb;
+    color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+
+ .hero-detail{
+    display: flex;
+    margin: 10px;
+    margin-left: 90px;
+    margin-top: -25px;
+   
+}
+ 
+
+ .content{
+    margin: 10px;
+    display:block;
+    margin-top: 150px;
+    color: white;
+    
+}
+
+.logo img{
+    width: 130px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+
+
+
+.content h1{
+   
+    font-size: 35px;
+    color: white;
+}
+.content button{
+    
+    width: 180px;
+    height: 45px;
+    border-radius: 15px;
+    color: white;
+    border: solid white 1.5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.form-container{
+    display: flex;
+   border: white 1px;
+    align-content: center;
+    width: 380px;
+    height: 480px;
+    margin-left: 230px;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.form-container h4{
+    margin: 10px;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+.form-container label{
+    margin: 10px;
+    margin-bottom: 190px;
+    margin-left: 20px;
+}
+
+    
+
+
+.form-container label{
+    margin: 10px;
+   
+}
+
+.value{
+    display: flex;
+    width:300px ;
+    
+}
+.value input {
+    min-width: 95%;
+    min-height: 40px;
+    border: solid #333539 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 15px;
+    border-right: none;
+    /* margin-left: 10px; */
+    /* border-radius: 5px; */
+
+
+}
+
+
+.value select{
+        min-width: 23%;
+        min-height: 40px;
+        border: solid #333539 1px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px; 
+        border-left: none;
+    }
+       
+    
+
+    .login-trans button{
+        width: 27vw;
+        height: 40px;
+        margin: 3px;
+        background-color: #014fcb;
+        border: #014fcb;
+        color: white;
+        margin-left: 15px;
+        text-align:left;
+        padding-left: 35px;
+        font-weight: bold;
+        font-size: 15px;
+        
+        
+    }
+.form-container p{
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+    
+.blue{
+    color: #014fcb;
+}
+
+.hero-detail::after{
+    background-color: #fff;
+  -webkit-clip-path: polygon(100% 88%, 100% 100%, 0 100%);
+          clip-path: polygon(100% 88%, 100% 100%, 0 100%);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height:100%;
+ width:100%;
+}
