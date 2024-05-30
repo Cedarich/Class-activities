@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(rgba(110, 148, 242, 0.877),rgba(30, 12, 185, 0.877)), url(images/4.jpg);
+    background-image: linear-gradient(rgba(110, 148, 242, 0.877),rgba(30, 12, 185, 0.877)), url(Image/4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
